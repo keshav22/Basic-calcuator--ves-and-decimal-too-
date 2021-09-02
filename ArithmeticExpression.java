@@ -158,7 +158,7 @@ public class ArithmeticExpression {
         ReturnTypeConvert rt = itp.convert();
         String postfixExp = rt.result;
         HashMap<Integer, Boolean> map = rt.map;
-        System.out.println(postfixExp);
+        //System.out.println(postfixExp);
         if(postfixExp !=null && postfixExp.length() > 0)
         {
             Stack<Double> s = new Stack<>();
